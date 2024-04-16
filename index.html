@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>To do list</title>
+  </head>
+  <body>      
+    <div id="container">
+      <h2>To do list <i class="fa-solid fa-check" style="color: #000000;"></i>  </h2> 
+      
+      <div id="form">
+        <form>
+          <input class="input" type="text" placeholder="Agregar tarea...">           
+          <button class="list-button" onclick="">Enter</button>    
+        </form>
+      </div>
+      <div id="list-container">
+        <ul class="list-task">
+         
+        </ul>
+      </div>
+      <div class="empty">
+        <p>No tienes tareas pendientes</p>
+      </div>
+  </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
